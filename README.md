@@ -1,4 +1,4 @@
-Linux Server Automation: Smart Backup System
+ # Linux Server Automation: Smart Backup System
 
 📌 Project Overview
 
@@ -30,9 +30,9 @@ success_output.png: Verification of successful script execution.
 Make the script executable:
 
 Bash
-
 chmod +x backup.sh
 Run a manual backup:
+
 
 Bash
 
@@ -41,9 +41,6 @@ Bash
 🗓️ Automation (Crontab)
 To automate this script to run every day at midnight, add the following line to your crontab -e:
 
+
 Bash
-
 0 0 * * * /usr/local/bin/backup.sh /source_dir /dest_dir
-
-🧪 Manual Testing Proof
-The following output confirms the script successfully calculates the archive name, verifies the location, and checks disk availability before finishing:
